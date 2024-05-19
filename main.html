@@ -8,6 +8,33 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<header>
+		  <h1 role="heading">My Accessible Portfolio</h1>
+	</header>
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+	   <main>
+        <!-- Image with ARIA role img and alt attribute -->
+        <section>
+            <img src="profile.jpg" alt="Profile picture of [Your Name]" role="img">
+            <p>Welcome to my portfolio! Here you will find information about me, my projects, and how to contact me.</p>
+        </section>
+
+        <!-- List with ARIA role list and listitem -->
+        <section id="projects">
+            <h2 role="heading">Projects</h2>
+            <ul role="list">
+                <li role="listitem">Project 1: A web application that helps users manage tasks efficiently.</li>
+                <li role="listitem">Project 2: A mobile app that tracks fitness activities and goals.</li>
+                <li role="listitem">Project 3: A machine learning project that predicts stock prices.</li>
+            </ul>
+        </section>
+    </main>
     <script type="text/javascript" src="./script.js">
 </script>
 
